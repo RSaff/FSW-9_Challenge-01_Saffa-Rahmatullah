@@ -1,0 +1,104 @@
+html {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 38px;   
+}
+
+.navbar-nav {
+  background-color: #F1F3FF;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+      margin-right: 30px;
+      margin-bottom: -3px;
+  }
+  
+  .nav-link:hover {
+      border-bottom: 3px solid #0b63dc;
+  }
+}
+/* Akhir Navbar */
+
+/* Page 1 */
+#Jumbotron {
+  background: #f1f3ff;
+}
+img {max-width: 100%; height: auto;
+}
+.container {
+  z-index: 10;
+  position: relative;
+}
+/* Akhir Page 1 */
+
+/* Page 2 */
+.__osSuperiority {
+  border: none;
+  font-size: 14px;
+}
+.__osHeader {
+  font-weight: bolder;}
+/* akhir Page 2 */
+
+/* Page 3 */
+.order-card {
+  color:black;
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border:black;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 20px;
+  height: 190px;
+}
+
+.order-card i {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.__wuIcon {
+  border-radius: 50%;
+  padding: 0.6rem 0.7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Akhir Page 3 */
+
+/* Page 4 */
+#testimonial .container py-5 {
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.accordion-item {
+  border: none;
+}
+#testimonials .card {
+  width: 70%;
+  height: 30%;
+  background: #f1f3ff;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem auto;
+}
+/* Akhir Page 4 */
+
+
+
+
